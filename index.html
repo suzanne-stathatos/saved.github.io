@@ -246,14 +246,23 @@
 <section class="section hero is-small">
   <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
+        <div class="image-container">
+          <div>
+              <h2 class="title is-4">Quantitative</h2>
               <img src="static/images/SAVeD_results.jpg" alt="MY ALT TEXT"/>
-              <div class="content has-text-justified">
-                <p> SAVeD does well across all datasets and downstream tasks. Best performance is <strong>bolded</strong>. Baseline refers to raw for medical ultrasound (POCUS and BUV) and the strengthened baseline CFC22++ for fish sonar (CFC22). 
-AP=average precision, AR=average recall, F1=average F1, mAP50=mean average precision of detections at IOU threshold 0.5, MOTA=Multi-Object Tracking Accuracy, nMAE=normalized mean absolute counting error. </p>
-              </div>
           </div>
+          <div>
+              <h2 class="title is-4">Qualitative</h2>
+              <img src="static/images/qualitative_row_across_datasets.gif" alt="MY ALT TEXT"/>
+          </div>
+        </div>
       </div>
+      <br>
+      <div class="content has-text-justified">
+        <p> SAVeD does well across all datasets and downstream tasks. Best performance is <strong>bolded</strong>. Baseline refers to raw for medical ultrasound (POCUS and BUV) and the strengthened baseline CFC22++ for fish sonar (CFC22). 
+          AP=average precision, AR=average recall, F1=average F1, mAP50=mean average precision of detections at IOU threshold 0.5, MOTA=Multi-Object Tracking Accuracy, nMAE=normalized mean absolute counting error. We also show qualitative results across all dataset. We show a series of the original frames compared to the same series of denoised frames. </p>
+      </div>         
+
   </div>
 </section>
 
